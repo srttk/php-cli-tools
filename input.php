@@ -7,10 +7,10 @@
 */
 class input {
 public static function read($msg=""){
-   fwrite(STDOUT,"$msg:");
-   $varin=trim(fgets(STDIN));
-   return $varin;
-}
+       fwrite(STDOUT,"$msg:");
+       $varin=trim(fgets(STDIN));
+       return $varin;
+   }
 
 }
 
